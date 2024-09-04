@@ -5,8 +5,9 @@ string = ["hello", "world", "this", "is", "test"]
 
 str1 = input("Enter the string to check:")
 
-if str1 in string:
-    print("True")
-else:
-    print("False")
+print(str1 in string)
+#if str1 in string:
+#    print("True")
+#else:
+ #   print("False")
 

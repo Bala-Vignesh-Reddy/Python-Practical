@@ -5,5 +5,4 @@ string = "Python Programming"
 for i in string:
     if i == "o":
         break
-    else:
-        print(i)
+    print(i)

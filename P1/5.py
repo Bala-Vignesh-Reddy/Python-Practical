@@ -2,7 +2,10 @@
 
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 count = int(input("Enter the count:"))
-sum1 = 0
-for i in range(count):
-    sum1 += arr[i]
-print("Sum: ", sum1)
+if count < len(arr):
+    sum1=0
+    for i in range(count):
+        sum1 += arr[i]
+    print("Sum:", sum1)
+else:
+    print("Out of range")
