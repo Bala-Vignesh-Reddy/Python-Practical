@@ -4,4 +4,7 @@ lst = [1, 'a', 2, 'e', 5]
 
 tup = tuple(lst)
 
+print(type(lst))
+print(type(tup))
+
 print(tup)
