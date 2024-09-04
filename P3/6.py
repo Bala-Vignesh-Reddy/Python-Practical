@@ -13,5 +13,3 @@ def fibo(n):
 
     return fibo(n) + fibo(n+1)
 
-ans = fibo(10)
-print(ans)
