@@ -3,16 +3,18 @@
 
 # using only one variable
 avg = sum1 = count = 0
+prod = 1
 while True:
     num = input("Enter the number,  Press q to exit!! : ")
     if num == 'q':
         break
     else:
         sum1 += int(num)
+        prod *= int(num)
         count += 1 
 
-print("Sum:", sum1)
 print("Average:", sum1/count)
+print("Product:", prod)
 
 # using list 
 lst = []
