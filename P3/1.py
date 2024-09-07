@@ -27,12 +27,11 @@ while True:
     else:
         lst.append(int(num))
 
-
-
 avg = sum1/count
 #print(lst)
 for i in lst:
     sum1 += i
+    prod *= i
     count += 1
 avg = sum1/count
 #print(avg)

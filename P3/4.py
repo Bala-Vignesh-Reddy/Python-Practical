@@ -2,8 +2,10 @@
 
 sal = int(input("Enter the salary:"))
 yos = int(input("Enter the year of service:"))
-bonus = 1
+bonus = 0
 if yos > 5:
     bonus = sal * 0.05 
+else:
+    print("Bonus is only applicable for above 5 years")
 
-print("Net Bonus\n", bonus)
+print("Net Bonus\n",bonus)
