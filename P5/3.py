@@ -5,5 +5,5 @@ def func(name = "Pragnesh"):
     var = f"Name is {name}"
     return var  
 
-res = func("Bala", 19)
+res = func("Bala")
 print(res)
