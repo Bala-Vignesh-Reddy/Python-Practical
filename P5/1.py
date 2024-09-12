@@ -3,5 +3,5 @@
 def abs_num(n):
     return abs(n)
 
-num = int(input("Enter number:"))
+num = eval(input("Enter number:"))
 print("Absolute Value:", abs_num(num))
