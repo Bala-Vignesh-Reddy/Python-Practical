@@ -16,4 +16,3 @@ def add(a, b):
 
 ans = add(5,6)
 print("Returned Ans:", ans)
->>>>>>> 9f37ad3 (P5)

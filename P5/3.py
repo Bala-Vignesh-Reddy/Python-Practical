@@ -5,4 +5,3 @@ def greet(name="Bala"):
 
 greet() # print with default argument
 greet("Dax") #argument is given to the function
->>>>>>> 9f37ad3 (P5)

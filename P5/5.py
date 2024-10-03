@@ -13,4 +13,3 @@ print("Entered string:", str1)
 print("Reversed String:", rev(str1))
 
 
->>>>>>> 9f37ad3 (P5)
